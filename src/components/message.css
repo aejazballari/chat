@@ -1,0 +1,54 @@
+.card {
+    background-color: rgb(236, 234, 234);
+    padding: 10px;
+    width: fit-content;
+    max-width: 50%;
+    border-radius: 15px;
+    margin: 10px 0px;   
+    border: none;
+    outline: none;
+    display: block;
+
+}
+
+.message__text {
+    background-color:rgb(61, 128, 230);;
+    color: white;
+    display: block;
+}
+
+.message__align {
+    text-align: right;
+}
+
+
+.message__img__user, .message__video__user  {
+ display: flex;
+ justify-content: flex-end;
+ margin-bottom: 20px ;
+}
+
+.message__img, .message__video {
+    margin-bottom: 20px;
+}
+
+.message__document  {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    background-color:rgb(61, 128, 230);;
+}
+
+.message__document__notuser {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+}
